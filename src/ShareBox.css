@@ -1,0 +1,44 @@
+.shareBox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid rgb(244, 237, 237);
+    padding-right: 10px;
+    
+}
+
+.shareBox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.shareBox__input{
+    padding: 20px;
+    display: flex;
+}
+
+.shareBox__input > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+
+}
+
+
+.shareBox__imageUpload{
+    border: none;
+    padding: 10px;
+}
+
+.shareBox__Button{
+    background-color: rgb(193, 19, 19) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+     border-radius: 30px !important;
+     height: 50px !important;
+     margin-top: 20px !important;
+    margin-left: auto !important;
+
+    }
+
